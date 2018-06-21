@@ -1,0 +1,167 @@
+ /*Header*/
+header{
+  /* position: fixed; */
+  padding: 10px 10px;
+  background-color: #ffffff;
+  height: 70px;
+  width: 1503.2px;
+  background-image: url("D:/Bootcamp/Work/Assignment_1_DND/Basic-Portfolio/Images/Watercolor.PNG");
+  background-repeat: no-repeat;
+  background-size: 500px 80px;
+  border-bottom-style: groove;
+  border-color: silver;
+}
+  /*Name Box*/
+  .Namestyle {
+    float: left;
+    padding: 5px;
+    height: 50px;
+    width: 20%;
+    font-family: 'Dorsa', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    letter-spacing: 4px; 
+    text-align: left;
+    color: #633894;
+    text-shadow: 1px 1px #C0C0C0;  
+  }
+  /*Blank Space*/
+  #Aboutstyle{
+    float: left;
+    padding: 5px;
+    height: 50px;
+    width: 45%;
+   }
+   /*Link Boxes*/
+  .pages{
+    float: left;    
+    padding: 5px;
+    height: 50px;
+    width: 10%;
+    font-family: 'Gafata', sans-serif;
+  }
+/* Content */
+.Wrapstyle{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 500px;
+    width: 1200px;
+    background-color: #ffffff;
+} 
+/* Content Header */
+h3{
+  width: 1200px;
+  height: 67px;
+  font-family: 'Gafata', sans-serif;
+  font-size: larger;
+  color: #696969;
+  opacity: .85;
+  text-shadow: 1px 1px #C0C0C0;
+  padding-bottom: 2px;
+  margin-left: 15px; 
+  margin-right: 15px;
+  border-bottom-style: groove;
+  border-color: silver;
+}
+/* Photo */
+img{
+  float: left;
+  margin-left: 15px; 
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  z-index: 1;
+}
+/* Body Text */
+p{
+  float: left;
+  margin-left: 15px; 
+  margin-right: 15px;
+  font-family: 'Gafata', sans-serif;
+  z-index: 2;
+}
+/* Footer */
+.Footerstyle{
+  position: fixed;
+   bottom: 0; 
+  width: 1650px;
+  height: 25px;
+  background-color:#696969;
+  opacity: .85;
+  margin-top: 50px;
+  border-top-style: groove;
+  border-color: silver;
+  text-align: center;
+  color: #ffffff;
+  font-size: x-small;
+  font-family: 'Gafata', sans-serif;
+ }
+ /*Background*/
+body{
+  background-image: url("D:/Bootcamp/Work/Assignment_1_DND/Basic-Portfolio/Images/qbkls.png"); 
+}
+  /*Contact Page*/  
+ /*Form*/
+  .Formstyle{
+    background-color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 150px; 
+    margin-left: 15px; 
+    margin-right: 15px;
+  }
+/*Submit Button*/
+.button{
+  background-color: #633894;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+ /*Portfolio Page*/
+  /*Container*/
+.Portfoliostyle{
+  position: relative;
+  top: -150px;
+  left: 500px;
+  z-index: 1;
+}
+ /*Photo Position*/
+.portfolioimage{
+  position: absolute;
+  z-index: 2;
+}
+ /*Photo banner with link*/
+.Photostyle{
+  position: absolute;
+  z-index: 3;
+  width: 150px;
+  height: 25px;
+  background-color:#696969;
+  opacity: .85;
+  margin-left: 15px; 
+  margin-right: 15px;
+  text-align: center;
+  font-size: small;
+}
+ /*Link Colors*/
+   /* mouse over link link */
+a:hover {
+  color: #ffffff;
+}
+   /* unvisited link */
+a:link {
+  color: #633894;
+}
+/* visited link */
+a:visited {
+  color: #FD0157;
+}
