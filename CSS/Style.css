@@ -5,7 +5,7 @@ header{
   background-color: #ffffff;
   height: 70px;
   width: 1503.2px;
-  background-image: url("D:/Bootcamp/Work/Assignment_1_DND/Basic-Portfolio/Images/Watercolor.PNG");
+  background-image: url("../Images/Watercolor.PNG");
   background-repeat: no-repeat;
   background-size: 500px 80px;
   border-bottom-style: groove;
@@ -102,7 +102,7 @@ p{
  }
  /*Background*/
 body{
-  background-image: url("D:/Bootcamp/Work/Assignment_1_DND/Basic-Portfolio/Images/qbkls.png"); 
+  background-image: url("../Images/qbkls.png"); 
 }
   /*Contact Page*/  
  /*Form*/
